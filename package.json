@@ -2,6 +2,7 @@
  "name": "vue-ts-decorator",
  "displayName": "vue-ts-decorator",
  "version": "1.0.1",
+ "icon": "assets/logo.png",
  "description": "Vue Typescript component snippet using vue-property-decorator",
  "publisher": "dharmendra14",
  "engines": {
