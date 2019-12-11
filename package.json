@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Vue Typescript component snippet using vue-property-decorator",
   "main": "index.js",
-  "publisher": "dharmendra",
+  "publisher": "dharmendra14",
   "engines": {
   	"vscode": "^1.28.0"
   },
