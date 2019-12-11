@@ -1,0 +1,42 @@
+{
+  "name": "vue-ts-decorator",
+  "displayName": "vue-ts-decorator",
+  "version": "1.0.0",
+  "description": "Vue Typescript component snippet using vue-property-decorator",
+  "main": "index.js",
+  "publisher": "dharmendra",
+  "engines": {
+  	"vscode": "^1.28.0"
+  },
+  "categories": [
+  	"Snippets"
+  ],
+  "languages": [
+	  {
+		  "id": "vue",
+		  "aliases": [
+		  	"Vue",
+		  	"vue"
+		  ],
+		  "extensions": [
+		  	".vue"
+		  ]
+	  }
+  ],
+  "contributes": {
+  	"snippets": [{
+  		"language": "vue",
+  		"path": "./snippets.json"
+  	}]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dharmendra205111014/vue-ts-decorator.git"
+  },
+  "author": "dharmendra patel <dharmendra.patel26@gmail.com>",
+  "license": "SEE LICENSE IN LICENCE",
+  "bugs": {
+    "url": "https://github.com/Dharmendra205111014/vue-ts-decorator/issues"
+  },
+  "homepage": "https://github.com/Dharmendra205111014/vue-ts-decorator#readme"
+}

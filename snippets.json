@@ -1,0 +1,21 @@
+{
+	"Vue Typescript decorator component": {
+		"prefix": "Vue-ts-decorator",
+		"scope": "vue",
+		"body": [
+			"<template>",
+			"        <div class=\"my-component\"></div>",
+			"</template>",
+			"",
+			"<script lang=\"ts\">",
+			"import { Vue, Component, Prop } from 'vue-property-decorator'",
+			"",
+			"@Component({})",
+			"export default class MyComponent extends Vue {",
+			"",
+			"}",
+			"</script>"
+		],
+		"description": "Vue Typescript decorator component"
+	}
+}
