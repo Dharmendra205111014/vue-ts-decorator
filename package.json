@@ -3,30 +3,37 @@
   "displayName": "vue-ts-decorator",
   "version": "1.0.0",
   "description": "Vue Typescript component snippet using vue-property-decorator",
-  "main": "index.js",
   "publisher": "dharmendra14",
   "engines": {
-  	"vscode": "^1.28.0"
+  	"vscode": "^1.39.2"
   },
   "categories": [
   	"Snippets"
   ],
   "languages": [
-	  {
-		  "id": "vue",
-		  "aliases": [
-		  	"Vue",
-		  	"vue"
-		  ],
-		  "extensions": [
-		  	".vue"
-		  ]
-	  }
+	{
+		"id": "vue",
+		"aliases": [
+		"Vue",
+		"vue"
+		],
+		"extensions": [
+		".vue"
+		],
+		"configuration": "./config/vue.configuration.json"
+	}
+  ],
+  "grammer": [
+	{
+		"language": "vue",
+		"scopeName": "text.html.vue",
+		"path": "./syntaxes/vue.tmLanguage"
+	}
   ],
   "contributes": {
   	"snippets": [{
   		"language": "vue",
-  		"path": "./snippets.json"
+  		"path": "./snippets/vue.json"
   	}]
   },
   "repository": {

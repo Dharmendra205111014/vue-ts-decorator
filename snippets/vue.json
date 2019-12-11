@@ -1,7 +1,6 @@
 {
 	"Vue Typescript decorator component": {
-		"prefix": "Vue-ts-decorator",
-		"scope": "vue",
+		"prefix": "vue-ts-decorator",
 		"body": [
 			"<template>",
 			"        <div class=\"my-component\"></div>",
