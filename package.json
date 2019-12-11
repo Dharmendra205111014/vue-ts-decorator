@@ -1,49 +1,51 @@
 {
-  "name": "vue-ts-decorator",
-  "displayName": "vue-ts-decorator",
-  "version": "1.0.0",
-  "description": "Vue Typescript component snippet using vue-property-decorator",
-  "publisher": "dharmendra14",
-  "engines": {
-  	"vscode": "^1.39.2"
-  },
-  "categories": [
-  	"Snippets"
-  ],
-  "languages": [
-	{
-		"id": "vue",
-		"aliases": [
-		"Vue",
-		"vue"
-		],
-		"extensions": [
-		".vue"
-		],
-		"configuration": "./config/vue.configuration.json"
-	}
-  ],
-  "grammer": [
-	{
-		"language": "vue",
-		"scopeName": "text.html.vue",
-		"path": "./syntaxes/vue.tmLanguage"
-	}
-  ],
-  "contributes": {
-  	"snippets": [{
-  		"language": "vue",
-  		"path": "./snippets/vue.json"
-  	}]
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dharmendra205111014/vue-ts-decorator.git"
-  },
-  "author": "dharmendra patel <dharmendra.patel26@gmail.com>",
-  "license": "SEE LICENSE IN LICENCE",
-  "bugs": {
-    "url": "https://github.com/Dharmendra205111014/vue-ts-decorator/issues"
-  },
-  "homepage": "https://github.com/Dharmendra205111014/vue-ts-decorator#readme"
+ "name": "vue-ts-decorator",
+ "displayName": "vue-ts-decorator",
+ "version": "1.0.1",
+ "description": "Vue Typescript component snippet using vue-property-decorator",
+ "publisher": "dharmendra14",
+ "engines": {
+  "vscode": "^1.39.2"
+ },
+ "categories": [
+  "Snippets"
+ ],
+ "languages": [
+  {
+   "id": "vue",
+   "aliases": [
+    "Vue",
+    "vue"
+   ],
+   "extensions": [
+    ".vue"
+   ],
+   "configuration": "./config/vue.configuration.json"
+  }
+ ],
+ "grammer": [
+  {
+   "language": "vue",
+   "scopeName": "text.html.vue",
+   "path": "./syntaxes/vue.tmLanguage"
+  }
+ ],
+ "contributes": {
+  "snippets": [
+   {
+    "language": "vue",
+    "path": "./snippets/vue.json"
+   }
+  ]
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/Dharmendra205111014/vue-ts-decorator.git"
+ },
+ "author": "dharmendra patel <dharmendra.patel26@gmail.com>",
+ "license": "SEE LICENSE IN LICENCE",
+ "bugs": {
+  "url": "https://github.com/Dharmendra205111014/vue-ts-decorator/issues"
+ },
+ "homepage": "https://github.com/Dharmendra205111014/vue-ts-decorator#readme"
 }
