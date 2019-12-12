@@ -1,14 +1,14 @@
 {
  "name": "vue-ts-decorator",
  "displayName": "vue-ts-decorator",
- "version": "1.0.2",
+ "version": "1.0.3",
  "icon": "assets/logo.png",
  "description": "Vue Typescript component snippet using vue-property-decorator",
  "scripts": {
-	"package": "vsce package",
-	"publish:major": "vsce publish major",
-	"publish:minor": "vsce publish minor",
-	"publish:patch": "vsce publish patch"
+  "package": "vsce package",
+  "publish:major": "vsce publish major",
+  "publish:minor": "vsce publish minor",
+  "publish:patch": "vsce publish patch"
  },
  "publisher": "dharmendra14",
  "engines": {
