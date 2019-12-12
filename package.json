@@ -4,6 +4,12 @@
  "version": "1.0.2",
  "icon": "assets/logo.png",
  "description": "Vue Typescript component snippet using vue-property-decorator",
+ "scripts": {
+	"package": "vsce package",
+	"publish:major": "vsce publish major",
+	"publish:minor": "vsce publish minor",
+	"publish:patch": "vsce publish patch"
+ },
  "publisher": "dharmendra14",
  "engines": {
   "vscode": "^1.39.2"

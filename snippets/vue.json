@@ -3,17 +3,21 @@
 		"prefix": "vue-ts-decorator",
 		"body": [
 			"<template>",
-			"        <div class=\"my-component\"></div>",
+			"        <div class=\"${TM_FILENAME_BASE}\"></div>",
 			"</template>",
 			"",
 			"<script lang=\"ts\">",
 			"import { Vue, Component, Prop } from 'vue-property-decorator'",
 			"",
 			"@Component({})",
-			"export default class MyComponent extends Vue {",
+			"export default class ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/} extends Vue {",
 			"",
 			"}",
-			"</script>"
+			"</script>",
+			"",
+			"<style lang=\"scss\">",
+			"",
+			"</style>"
 		],
 		"description": "Vue Typescript decorator component"
 	}
